@@ -1,0 +1,40 @@
+{
+  "name": "kefir-busify",
+  "version": "0.1.0",
+  "description": "Transform object and arrays to tree of buses",
+  "main": "kefir-busify.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel kefir-busify.es6 -o kefir-busify.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iofjuupasli/kefir-busify.git"
+  },
+  "keywords": [
+    "kefir",
+    "bus",
+    "frp",
+    "bacon",
+    "rxjs",
+    "tree"
+  ],
+  "author": "Tretyak Valery <iofjuupasli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iofjuupasli/kefir-busify/issues"
+  },
+  "homepage": "https://github.com/iofjuupasli/kefir-busify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^2.13.1"
+  },
+  "dependencies": {
+    "kefir-bus": "^2.1.0",
+    "ramda": "^0.21.0"
+  }
+}
